@@ -1,0 +1,24 @@
+List of Libraries: numPy, pandas, sklearn, matplotlib
+
+SVM Manual:
+To train your SVM classifier, we need to use our training dataset. The training dataset is
+already called in the training.py file, so to train your SVM classifier you just have to run
+training.trainSVM(), and you will recieve the theta values of your SVM classifier. Taking in the
+whole dataset it makes a linear classifier determining whether your credit card will be approved 
+or not.
+
+To test your SVM classifier, you do the samething, except using testing.py, and testing.trainSVM()not.
+
+ROC Manual:
+To get the ROC curve as well as the AUC score you run runROC.run(), and import runROC. 
+
+K-Folds Cross Validation:
+
+To cross validate our data we used K-Folds cross validation. The value we used for k was 50. To run the technique on your training data, you need 
+to access training.py. Within training.py there is a method called trainkFolds. You run training.trainkFolds() to
+cross validate your data. Using a probablistic predictor it will analyze the skill of data.
+
+Decision Tree:
+
+Our decision has multiple different functions, one to build the tree, entropy, info gain etc. In our decisionTree.py file, you can see how we build
+the tree, train it, and test to find a bad customer. 
